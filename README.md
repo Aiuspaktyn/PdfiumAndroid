@@ -9,8 +9,8 @@ This fork is updated to **SDK 35 / NDK 28** and delivers a working AAR compatibl
 **Version 2.0.0** - Significant updates to the build layer and compatibility improvements warrant a major version bump from the original 1.9.0.
 
 ### Key Updates:
-- **Android SDK 35** and **NDK 28** compatibility
-- **Android Gradle Plugin 8.9.2** support
+- **Android SDK 36** and **NDK 28** compatibility
+- **Android Gradle Plugin 8.12.0** support
 - **Java 17** requirement (configured via `gradle.properties`)
 - **BuildConfig generation** fixed for library modules
 - **Native library packaging** corrected in AAR
@@ -19,7 +19,7 @@ This fork is updated to **SDK 35 / NDK 28** and delivers a working AAR compatibl
 
 ## Requirements
 
-- **Java 17+** (required for AGP 8.9.2+)
+- **Java 17+** (required for AGP 8.12.0+)
 - **Android NDK 28.2.13676358**
 - **Git Bash** (for Windows users)
 - **Ninja build tool** - https://github.com/ninja-build/ninja/releases
@@ -72,7 +72,7 @@ repositories {
 }
 
 dependencies {
-    implementation 'com.github.yourusername:PdfiumAndroid:v2.0.0'
+    implementation 'com.github.aiuspaktyn:PdfiumAndroid:2.0.1'
 }
 ```
 
